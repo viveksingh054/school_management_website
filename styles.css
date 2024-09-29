@@ -1,0 +1,462 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('imageone.jpg') no-repeat center center/cover; /* Add your image path here */
+    height: 100vh; /* Full viewport height */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional overlay for better text readability */
+    padding: 2rem;
+}
+
+.highlights {
+    padding: 20px;
+    text-align: center;
+}
+
+.highlight-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight-box {
+    width: 30%;
+    background: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials {
+    background: #e2e2e2;
+    padding: 20px;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-box {
+    width: 30%;
+    text-align: center;
+}
+
+.cta-section {
+    background: #5d5fda;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section .form-group {
+    margin: 10px 0;
+}
+
+.submit-btn {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #16dccb;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Features Section Styles */
+.features {
+    padding: 4rem 2rem; /* Add padding */
+    text-align: center; /* Center-align text */
+}
+
+.feature-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 2rem; /* Space between grid items */
+}
+
+.feature-box {
+    background: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 2rem; /* Padding inside boxes */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.feature-box:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.feature-box img {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.feature-box h3 {
+    margin-top: 1rem; /* Space above headings */
+    font-size: 1.5rem; /* Font size for headings */
+    color: #333; /* Dark text color */
+}
+
+.feature-box p {
+    font-size: 1rem; /* Font size for descriptions */
+    color: #666; /* Grey text for descriptions */
+}
+
+/* login section  Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust height for header and footer */
+    background: url('lppp.jpeg') no-repeat center center/cover; /* Add your background image path */
+    background-size: 85%; /* Width */
+    height: 110vh; /* Height */
+    position: relative; /* Make sure the image covers the whole section */
+    filter: brightness(0.8); /* Optional: dim the background image */
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width for the login form */
+    text-align: center; /* Center align text */
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background: #16dccb;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* registration styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.registration-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust for header/footer */
+    background: url('rppp.jpg') no-repeat center center/cover; /* Add your background image */
+    background-size: 100%; /* Width */
+    height: 110vh; /* Height */
+    position: relative;
+}
+
+.registration-container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Fixed width for the form */
+    text-align: center; /* Center align text */
+}
+
+.registration-container h2 {
+    margin-bottom: 20px;
+    color: #35424a; /* Change heading color */
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #35424a; /* Change border color on focus */
+}
+
+.submit-btn {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #16dccb;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* contact style */
+
+.contact-section {
+    background: url('contactt.png') no-repeat center center/cover; /* Background image */
+    background-size: 130%; /* Width */
+    height: 130vh; /* Height */
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #35424a;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+.submit-btn {
+    background: #5d5fda; /* Attractive button color */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #35424a; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly scale the button */
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
